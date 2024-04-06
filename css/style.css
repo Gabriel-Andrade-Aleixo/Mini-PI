@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bgb {
+    background-image: url(./img/bnnerstardew2.jpg);
+}
+
+.bgr {
+    background-repeat: no-repeat;
+}
+.bgs{
+    background-size: 100% auto;
+}
+
+.bord5 {
+    border-radius: 5px;
+}
+
+.bord10 {
+    border-radius: 10px;
+}
+
+.cort {
+    background-color: black;
+}
+
+.height100 {
+    height: 100px;
+}
+
+.height500 {
+    height: 500px;
+}
+.height1000{
+    height: 1000px;
+}
+
+.mar5 {
+    margin: 5px;
+}
+.mart-5{
+    margin-top: -5px;
+}
+.pad5 {
+    padding: 5px;
+}
+.pad10{
+    padding: 10px;
+}
+
+.posif {
+    position: absolute;
+}
+
+.width500 {
+    width: 500px;
+}
