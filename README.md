@@ -4,24 +4,28 @@ Um pequeno site informacional para exemplo do PI
 
 ## 🚀 Acessando o site
 
-<h4>Você pode acessar o site pelo link</h4> https://660202cf1d391a62af434788--sunny-valkyrie-a25e71.netlify.app
+<h4>Você pode acessar o site pelo link</h4> 
 
 ## Descrição
 
-Um site sobre o meu currículo. Provavelmente está desatualizado no momento. Mas por enquanto é só isso. 
+Um site breve sobre stardewValley, para introduzir o meu PI.
 
 ## Imagens do site
 
 <div>
-    <img src="./css/img/imagem1.png" alt="Imagem Inicio">
+    <img src="./css/img/FotosSite/Foto1.png" alt="Imagem Inicio">
 </div>
 <br>
 <div>
-    <img src="./css/img/home.png" alt="Imagem Home">
+    <img src="./css/img/FotosSite/Foto2.png" alt="Imagem Personagens">
 </div>
 <br>
 <div>
-    <img src="./css/img/trabalhos.png" alt="Imagem Trabalhos">
+    <img src="./css/img/FotosSite/Foto3.png" alt="Imagem Fazendas">
+</div>
+<br>
+<div>
+    <img src="./css/img/FotosSite/Foto4.png" alt="Imagem Login">
 </div>
 <br>
 
