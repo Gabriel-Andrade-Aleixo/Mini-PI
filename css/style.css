@@ -1,17 +1,55 @@
 * {
     padding: 0px;
     margin: 0px;
+    scrollbar-width: thin;
+    scrollbar-color: blue rgba(255, 166, 0, 0);
+    box-sizing: border-box;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(255, 166, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid rgba(255, 166, 0, 0);
+}
+
+.alingc {
+    align-items: center;
+}
+
+body {
+    background-color: #0D0D0D;
 }
 
 .bgb {
-    background-image: url(./img/bnnerstardew2.jpg);
+    background-image: url(./img/astardew.png);
+}
+
+.bgg {
+    background-color: rgba(255, 255, 255, 0.5)
 }
 
 .bgr {
     background-repeat: no-repeat;
 }
-.bgs{
+
+.bgs {
     background-size: 100% auto;
+}
+
+.bord50p {
+    border-radius: 50%;
 }
 
 .bord5 {
@@ -22,8 +60,135 @@
     border-radius: 10px;
 }
 
+.bordsol {
+    border: 2px solid black;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(0, 119, 255);
+    cursor: pointer;
+}
+
+.cent {
+    width: auto;
+    height: auto;
+}
+
+.centra {
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.centra2 {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
 .cort {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.563);
+}
+
+.corpri {
+    background-color: rgb(85, 85, 85);
+}
+.corpag{
+    color: rgb(1, 255, 162);
+}
+.corle {
+    color: aliceblue;
+}
+.divlineblock{
+    font-size: 0;
+    margin-top: 20px;
+}
+.divlineblock img{
+    display: inline-block;
+    margin-right: 15px;
+    width: 100px;
+}
+.divprin {
+    margin: 0 auto;
+    width: 75vw;
+    padding: 50px;
+    border-radius: 15px;
+    border: black 2px solid;
+}
+
+.divlogin {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fontPlay {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    transform: translateX(-50%);
+    left: 50%;
+    width: 97vw;
+    padding: 40px 4%;
+    position: fixed;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+header ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.heightau {
+    height: auto;
+}
+
+.height100p {
+    height: auto;
 }
 
 .height100 {
@@ -33,27 +198,93 @@
 .height500 {
     height: 500px;
 }
-.height1000{
+
+.height750 {
+    height: 750px;
+}
+
+.height1000 {
     height: 1000px;
+}
+
+/* html {
+    height: 500vh;
+} */
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.justfspace {
+    justify-content: space-between;
+}
+
+.marau {
+    margin: auto;
 }
 
 .mar5 {
     margin: 5px;
 }
-.mart-5{
+
+.mar15 {
+    margin: 15px;
+}
+
+.mart-5 {
     margin-top: -5px;
 }
+
+.mart15 {
+    margin-top: 15px;
+}
+
+.marl5 {
+    margin-left: 10px;
+}
+
+.opa {
+    opacity: 0.5;
+}
+
 .pad5 {
     padding: 5px;
 }
-.pad10{
+
+.pad10 {
     padding: 10px;
 }
 
 .posif {
-    position: absolute;
+    position: fixed;
+}
+.textal{
+    text-align: center;
+}
+.width20 {
+    width: 20px;
+}
+
+.width70p {
+    width: 70%;
+}
+
+.width95p {
+    width: 95%;
+}
+
+.width100p {
+    width: 95vw;
 }
 
 .width500 {
     width: 500px;
+}
+
+.widthmax1280 {
+    max-width: 1280px;
 }
