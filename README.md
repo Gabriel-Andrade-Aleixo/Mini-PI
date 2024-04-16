@@ -4,7 +4,7 @@ Um pequeno site informacional para exemplo do PI
 
 ## 🚀 Acessando o site
 
-<h4>Você pode acessar o site pelo link</h4> https://curriculo-aleixo-52c42a.netlify.app
+<h4>Você pode acessar o site pelo link</h4> https://wikistardew.netlify.app
 
 ## Descrição
 
